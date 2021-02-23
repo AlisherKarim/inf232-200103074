@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/apple', function () {
+    return view('apple');
+});
+Route::get('/bota', function () {
+    return "This is an example route!";
+});
